@@ -7,7 +7,7 @@ const [dataMars, setDataMars] = useState()
 const mars = async ()=>{
   let res = await fetch('https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2015-6-3&api_key=9icajt1S0iZCKJqlWML0OBh0ON8x7eZ7RXIuRZ55');
   res = await res.json();
-  setDataMars(res);
+  setDataMars(res);  
 };
 
 useEffect(()=>{
