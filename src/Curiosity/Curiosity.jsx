@@ -5,9 +5,9 @@ const Curiosity = ({image, fullname, name, Id}) => {
     <div className=''>
     <div className=''>
       <img className='' src={image} alt="" />
-      <h3 className=''>{fullname}</h3>
-      <h5 className=''> {name}</h5>
-      <p className=''>{Id}</p>
+      <p className=''>{fullname}</p>
+      <p className='font-serif"'> {name}</p>
+      <p className='text-sm text-slate-700'>{Id}</p>
     </div>
 
     </div>
